@@ -1,0 +1,57 @@
+<!DOCTYPE html > 
+<html lang="en">
+<head>
+<title>Layout Example</title>
+<meta charset="utf-8">
+<link href="style_invader.css" rel="stylesheet" />    
+</head>
+<body>
+<div id="wrapper">
+  <header><h1 id="logo">Space Invader</h1>
+  </header>
+  <nav id="navcol">
+      <ul>
+          <li><a href="style_invader.html">Home</a></li>
+          <li><a href="high_scores.html">High Scores</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+       </ul>
+  </nav>
+  <main id="maincol">
+    <h1 id="formh1">User Feedback</h1>
+    <!-- Form 
+    <form method="post" action="">-->
+    <form>    
+        <label for="myName">Name:</label>
+        <input class="stretch" type="text" name="myName" id="myName">
+        <label for="myEmail">E-mail:</label>
+        <input class="stretch" type="email" name="myEmail" id="myEmail">
+        <!-- select box -->
+        <fieldset>
+        <legend>How often do you play web games?</legend>
+            <select size="3" name="menu" id="menu">
+            <option value="everyday" >Everyday</option>
+            <option value="fewtimes" >A few times a week</option>
+            <option value="rarely" >Rarely</option>
+            </select>
+        </fieldset>
+        <!-- Radio button -->
+        <fieldset>
+        <legend>Would you play this version again?</legend>
+            <input class="inline" type="radio" name="playgain" id="yes" value="">Yes<br>
+            <input class="inline" type="radio" name="playagain" id="no" value="">No<br>
+            <input class="inline"  type="radio" name="playagain" id="maybe" value="">Maybe but it needs updates<br>
+         </fieldset>
+        <label for="myComments">Comments:</label>
+        <textarea name="myComments" id="myComments" rows="3" cols="60"></textarea>
+        <input id="submit" type="submit" value="Submit"> <input id="reset" type="reset">
+    </form>
+  </main>
+  <footer class="footer">&copy; Kevin Paulovici - Space Invader Clone - 
+      <a href="mailto:kp204329@live.sunysccc.edu">kp204329@live.sunysccc.edu</a>
+  </footer>
+</div>
+</body>
+</html>
+
+
+
